@@ -4,35 +4,51 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MY FIRST WEBSITE</title>
+    <title>MY FIRST WEBSITE - Teresa Madridejos</title>
+    <link rel="javascript" href="javascript.js" />
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive" rel="stylesheet">
   </head>
   <body>
-    <header>
+    <header class="header-fixed">
       <!--TÍTULO-->
-      <h1>My first website</h2>
+      <h1>My first website</h1>
       <h1 class="bigger">Teresa Madridejos</h1>
-
-      <!--FOTO-->
-     <img src="https://tinyurl.com/yc63d3jd" alt="Girl with alien">
-
     </header>
 
-    <main>
+    <main class="main-down">
+             <!--FOTO-->
+     <img src="https://tinyurl.com/yc63d3jd" alt="Girl with alien" class="personaldescription">
+
       <!--DESCRIPCIÓN PERSONAL-->
+
+      <div class="personaldescription">
       <p>
         Cómo empiezo a trabajar una web? Cómo se pasa el diseño que quiero a
+        código? SACAR LA ESTRUCTURA EN BASE A SEMÁNTICOS. Cómo empiezo a trabajar una web? Cómo se pasa el diseño que quiero a
+        código? SACAR LA ESTRUCTURA EN BASE A SEMÁNTICOS. Cómo empiezo a trabajar una web? Cómo se pasa el diseño que quiero a
+        código? SACAR LA ESTRUCTURA EN BASE A SEMÁNTICOS. Cómo empiezo a trabajar una web? Cómo se pasa el diseño que quiero a
+        código? SACAR LA ESTRUCTURA EN BASE A SEMÁNTICOS. Cómo empiezo a trabajar una web? Cómo se pasa el diseño que quiero a
         código? SACAR LA ESTRUCTURA EN BASE A SEMÁNTICOS.
       </p>
+      </div>
 
       <!--FAVOURITES-->
 
       <section>
         <h2>What have I done?</h2>
-        <p>I have studied film</p>
-        <p>I have studied bakery</p>
-        <p>I am studying software development</p>
+        <div class="container">
+            <div class="card">
+           I have studied film
+            
+        </div>
+        <div class="card">
+            <p>I have studied bakery</p>
+        </div>
+            <div class="card">
+            <p>I am studying software development</p>
+        </div>
+        </div>
       </section>
 
       <section>
@@ -41,9 +57,12 @@
 
       <section>
         <h2>Movies</h2>
-        <p>I have studied film</p>
-        <p>I have studied bakery</p>
-        <p>I am studying software development</p>
+        <div class="container">
+            <p>I have studied film
+            </p>
+            <p>I have studied bakery
+            </p>
+            <p>I am studying software development</p>
       </section>
 
       <section>
@@ -56,9 +75,13 @@
 
       <section>
         <h2>Music</h2>
-        <p>I have studied film</p>
-        <p>I have studied bakery</p>
-        <p>I am studying software development</p>
+        <div class="container">
+            <p>I have studied film
+            </p>
+            <p>I have studied bakery
+            </p>
+            <p>I am studying software development
+            </p>
       </section>
     </main>
 
