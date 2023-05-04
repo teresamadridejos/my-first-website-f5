@@ -16,43 +16,28 @@ body {
   align-items: center;
 }
 
-.left,
-.right {
-  flex-basis: 10%;
-  margin: 0 10px;
-}
-
 .titles-container {
   flex-basis: 80%;
   text-align: center;
 }
 
-.main-title {
-  font-size: 24px;
-  font-family: "Helvetica", sans-serif;
-}
-
-.small-text {
-  font-size: 12px;
-  font-family: "Arial", sans-serif;
-}
 
 /*HEADER*/
 
 .titles-container {
-  border-bottom: 2px solid #EA86A0; /* Establece el estilo, grosor y color del borde inferior */
+  border-bottom: 2px solid #87aabd; 
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
 .website {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family:  'Darumadrop One', cursive;
   text-align: center;
   font-size: 20px;
-  color: #EA86A0;
+  color: #87aabd;
   margin-top: 40px;
   padding: 20px;
-  border-top: 2px solid #EA86A0; /* Establece el estilo, grosor y color del borde inferior */
+  border-top: 2px solid #87aabd; 
 }
 
 .website:hover {
@@ -61,42 +46,52 @@ body {
 
 .mi-nombre {
   font-family: "passion one", cursive;
-  color: #EA86A0;
+  color: #3a777a;
   text-align: center;
   font-size: 6rem;
   letter-spacing: 20px;
 }
 
 .mi-nombre:hover {
-  color: #3a777a;
+  color: #87aabd;
 }
 
 .photo2 img {
-  display: flex; /* Utiliza flexbox para centrar verticalmente el título */
-  height: 80vh;
-  width: 100%; /* Establece el ancho de la imagen al 100% */
-  object-fit: cover; /* Hace que la imagen ocupe todo el espacio sin deformarse */
+  display: flex; 
+  height: 100vh;
+  width: 100%; 
+  object-fit: cover;
   object-position: center;
   margin-top: 10px;
 }
 
 /*DESCRIPCIÓN*/
 .descripcion-container {
-  justify-content: center; /* Centra horizontalmente el título */
-  align-items: center; /* Centra verticalmente el título */
-  height: 10vh; /* Establece la altura del contenedor del título para ocupar el 100% de la altura de la ventana */
+  justify-content: center; 
+  align-items: center; 
+  padding-top: 20px;
+  padding-bottom: 20px;
   display: block;
-  background-color: #EA86A0;
+  background-color: #87aabd;
+  margin-top: 3 0px;
 }
 
 .descripcion {
-  font-size: 20px; /* Establece el tamaño de letra */
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px; 
+  font-family: rob
   color: #ffffff;
-  text-align: center; /* Centra el texto horizontalmente */
-  line-height: 1.2; /* Establece el espaciado entre líneas del texto */
+  text-align: center; 
+  line-height: 1.2; 
   margin-right: 15%;
   margin-left: 15%;
+  padding-bottom: 30px;
+}
+
+.teresa-image {
+  border-radius: 60%;
+  width: 10%;
+  display: block;
+  margin: 0 auto;
 }
 
 /*DÓNDE HE VIVIDO*/
@@ -143,25 +138,33 @@ body {
   font-size: 3em;
 }
 
-/*MOVIES */
-
 /*ROLLERSKATING*/
 .rollerskating-container {
-  display: flex; /* Utiliza flexbox para centrar verticalmente el título */
-  justify-content: center; /* Centra horizontalmente el título */
-  align-items: center; /* Centra verticalmente el título */
-  height: 50vh; /* Establece la altura del contenedor del título para ocupar el 100% de la altura de la ventana */
-  background-color: #963928; /* Establece el color de fondo */
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  height: 50vh; 
+  background-color: #3a777a; 
 }
 
 .rollerskating-title {
-  font-size: 4rem; /* Establece el tamaño de letra */
+  font-size: 4rem; 
   font-family: "passion one", cursive;
-  color: #EA86A0; /* Establece el color del texto */
-  text-align: center; /* Centra el texto horizontalmente */
-  line-height: 1.2; /* Establece el espaciado entre líneas del texto */
+  text-align: center; 
+  line-height: 1.2; 
   letter-spacing: 20px;
+  text-decoration: none;
+  color: beige;
 }
+
+.rollerskating-container:hover {
+  background-color: beige;
+}
+
+.rollerskating-title:hover {
+  color: #3a777a;
+}
+
 
 /*MUSIC*/
 
@@ -170,9 +173,9 @@ body {
   font-size: 5rem;
   text-align: right;
   margin-right: 10%;
-  color: #ff4612;
+  color: #3a777a;
   font-family: "passion one", cursive;
-
+  letter-spacing: 10px;
 }
 
 .music-cubes-section {
@@ -180,7 +183,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 20px;
-  background-color: #EA86A0;
+  background-color: #87aabd;
 }
 
 .music-cube {
@@ -192,8 +195,8 @@ body {
   align-items: center;
   text-align: center;
   margin: 20px 20px;
-  background-color: #  font-family: "passion one", cursive;
-;
+  background-color: #000;
+  font-family: "passion one", cursive;
 }
 
 .music-cube-title {
@@ -202,20 +205,22 @@ body {
 }
 
 .music-cube1 {
- background-color:  #ffffff;
+  background-color: #ffffff;
 }
 
 .music-cube2 {
-  background-color:  #87AABD;
- }
+  background-color: #3a777a;
+  color: beige;
+}
 
- .music-cube3 {
-  background-color:  #C15E01;
- }
+.music-cube3 {
+  background-color: beige;
+}
 
- .music-cube4 {
-  background-color:  #C091C5;
- }
+.music-cube4 {
+  background-color: #3a777a;
+  color: beige;
+}
 
 .music-cube-img {
   max-width: 100%;
@@ -224,6 +229,37 @@ body {
 
 .music-cube-text {
   font-size: 16px;
-  color: #000;
   margin-top: 10px;
+}
+
+/*LIVED*/
+
+.split-section-title {
+  color: #3a777a;
+}
+
+.split-section-title:hover {
+  color: #87aabd;
+}
+
+/* FOOTER */
+
+footer {
+  padding-top: 60px;
+  padding-bottom: 20px;
+  background-color: beige;
+  display: flex; /* Utiliza flexbox para centrar verticalmente el título */
+  justify-content: center; /* Centra horizontalmente el título */
+  align-items: center; /* Centra verticalmente el título */
+}
+
+.footer-text {
+  color: #3a777a;
+  font-size: 20px; /* Establece el tamaño de letra */
+  font-family: 'Darumadrop One', cursive;
+  text-align: center; /* Centra el texto horizontalmente */
+  line-height: 1.2; /* Establece el espaciado entre líneas del texto */
+  margin-right: 15%;
+  margin-left: 15%;
+  padding-bottom: 30px;
 }
