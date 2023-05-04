@@ -250,19 +250,22 @@ body {
 
 footer {
   padding-top: 60px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   background-color: beige;
-  display: flex; /* Utiliza flexbox para centrar verticalmente el título */
-  justify-content: center; /* Centra horizontalmente el título */
-  align-items: center; /* Centra verticalmente el título */
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  display: block;
+  margin-top: 3 0px;
 }
+
 
 .footer-text {
   color: #3a777a;
-  font-size: 20px; /* Establece el tamaño de letra */
+  font-size: 20px; 
   font-family: 'Darumadrop One', cursive;
-  text-align: center; /* Centra el texto horizontalmente */
-  line-height: 1.2; /* Establece el espaciado entre líneas del texto */
+  text-align: center; 
+  line-height: 1.2; 
   margin-right: 15%;
   margin-left: 15%;
   padding-bottom: 30px;
