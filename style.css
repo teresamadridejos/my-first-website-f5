@@ -10,6 +10,8 @@ body {
   background-color: #f7f2ef;
 }
 
+/*HEADER*/
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -19,12 +21,6 @@ body {
 .titles-container {
   flex-basis: 80%;
   text-align: center;
-}
-
-
-/*HEADER*/
-
-.titles-container {
   border-bottom: 2px solid #87aabd; 
   margin-top: 20px;
   margin-bottom: 20px;
@@ -52,7 +48,7 @@ body {
   color: #87aabd;
 }
 
-.photo2 img {
+.photo img {
   display: flex; 
   height: 100vh;
   width: 100%; 
@@ -151,6 +147,10 @@ body {
   background-color: #3a777a; 
 }
 
+.rollerskating-container:hover {
+  background-color: beige;
+}
+
 .rollerskating-title {
   font-size: 4rem; 
   font-family: "passion one", cursive;
@@ -159,10 +159,6 @@ body {
   letter-spacing: 20px;
   text-decoration: none;
   color: beige;
-}
-
-.rollerskating-container:hover {
-  background-color: beige;
 }
 
 .rollerskating-title:hover {
@@ -178,7 +174,7 @@ body {
   text-align: right;
   margin-right: 10%;
   color: #3a777a;
-  font-family:   "passion one", cursive;
+  font-family: "passion one", cursive;
   letter-spacing: 10px;
 }
 
@@ -193,8 +189,8 @@ body {
 .music-cube {
   display: flex;
   flex-direction: column;
-  width: 325px; /* Ancho de 325px */
-  height: 425px; /* Alto de 425px */
+  width: 325px; 
+  height: 425px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -208,24 +204,6 @@ body {
   margin-top: 10px;
 }
 
-.music-cube1 {
-  background-color: #ffffff;
-}
-
-.music-cube2 {
-  background-color: #3a777a;
-  color: beige;
-}
-
-.music-cube3 {
-  background-color: beige;
-}
-
-.music-cube4 {
-  background-color: #3a777a;
-  color: beige;
-}
-
 .music-cube-img {
   max-width: 100%;
   height: auto;
@@ -234,6 +212,15 @@ body {
 .music-cube-text {
   font-size: 16px;
   margin-top: 10px;
+}
+
+.music-cube1, .music-cube3 {
+  background-color: beige;
+}
+
+.music-cube2, .music-cube4 {
+  background-color: #3a777a;
+  color: beige;
 }
 
 /*LIVED*/
